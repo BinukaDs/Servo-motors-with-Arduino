@@ -1,0 +1,24 @@
+#include<Servo.h>
+
+Servo My_Servo;
+
+
+void setup() {
+My_Servo.write (9);// the pin 
+
+}
+
+void loop() {
+
+ 
+ 
+for( int i = 0; i<=180; i++){
+My_Servo.write(i);
+delay(20);
+}
+for( int i = 18-; i>=0; --){
+My_Servo.write(i);
+delay(20);
+}
+
+}
